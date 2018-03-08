@@ -2,104 +2,133 @@ body {
   background-color: powderblue;
 }
 #title1 {
-  color: darkslateblue;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 90px;
+  color: white;
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 80px;
+  font-weight: lighter;
   text-align: center;
   letter-spacing: 5px;
-}
-#title2 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  border: 2px solid;
   position:absolute;
     transition: .5s ease;
-    top: 67%;
-    left: 11%;
-    bottom: 57%;
+    top: 7%;
+    left: 38%;
+    bottom: 90%;
 }
-#wrap {
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+.topnav a:hover {
+    background-color: plum;
+    color: black;
+}
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+.topnav input[type=text] {
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 11px;
+    margin-right: 16px;
+    font-size: 17px;
+    position:absolute;
+      transition: .5s ease;
+      top: 5%;
+      left: 77%;
+      bottom: 87%;
+}
+.topnav .search-container button {
+  float: right;
+  width: 35px;
+  height: 33px;
+  padding: 6px 10px;
+  margin-top: 27px;
+  margin-right: 18px;
+  margin-bottom: 50px;
+  background: #2196F3;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container button:hover {
+  background: plum;
+}
+.active {
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  line-height: 180%;
+  -webkit-font-smoothing: antialiased;
+  position:absolute;
+    transition: .5s ease;
+    top: 4%;
+    left: 3%;
+    bottom: 87%;
+}
+#about{
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  line-height: 180%;
+  -webkit-font-smoothing: antialiased;
+  position:absolute;
+    transition: .5s ease;
+    top: 4%;
+    left: 10%;
+    bottom: 87%;
+}
+#contact {
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  line-height: 180%;
+  -webkit-font-smoothing: antialiased;
+  position:absolute;
+    transition: .5s ease;
+    top: 4%;
+    left: 17%;
+    bottom: 87%;
+}
+.column {
+    float: left;
+    width: 25%;
+    margin-top: 230px;
+    height: 200px;
+}
+.row:after {
+    content: "";
+    diplay: table;
+    clear: both;
+}
+.column img {
+  display: block;
   width: 220px;
   height: 220px;
-  border-radius: 10px;
+  border: 8px solid white;
   cursor: pointer;
-  position:absolute;
-    transition: .5s ease;
-    top: 35%;
-    left: 7%;
-    bottom: 57%;
 }
-#title3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  position:absolute;
-    transition: .5s ease;
-    top: 67%;
-    left: 35%;
-    bottom: 57%;
-}
-#tofu {
-  width: 220px;
-  height: 220px;
-  border-radius: 10px;
+
+figcaption{
+  background-color: white;
+  padding-top: 5px;
+  font-family: 'Karma', serif;
+  border: 10px solid white;
   cursor: pointer;
-  position:absolute;
-    transition: .5s ease;
-    top: 35%;
-    left: 29%;
-    bottom: 57%;
-}
-#title4 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  position:absolute;
-    transition: .5s ease;
-    top: 67%;
-    left: 57%;
-    bottom: 57%;
-}
-#pasta {
-  width: 220px;
-  height: 220px;
-  border-radius: 10px;
-  cursor: pointer;
-  position:absolute;
-    transition: .5s ease;
-    top: 35%;
-    left: 51%;
-    bottom: 57%;
-}
-#title5 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  position:absolute;
-    transition: .5s ease;
-    top: 67%;
-    left: 80%;
-    bottom: 57%;
-}
-#risotto{
-  width: 220px;
-  height: 220px;
-  border-radius: 10px;
-  cursor: pointer;
-  position:absolute;
-    transition: .5s ease;
-    top: 35%;
-    left: 73%;
-    bottom: 57%;
-}
-#title6 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  position:absolute;
-    transition: .5s ease;
-    top: 117%;
-    left: 12%;
-    bottom: 57%;
-}
-#soup {
-  width: 220px;
-  height: 220px;
-  border-radius: 10px;
-  cursor: pointer;
-  position:absolute;
-    transition: .5s ease;
-    top: 85%;
-    left: 7%;
-    bottom: 57%;
 }

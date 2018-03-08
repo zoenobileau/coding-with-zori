@@ -2,13 +2,19 @@
 color: darkslateblue;
 font-family: 'Open Sans Condensed', sans-serif;
 font-size: 100px;
+font-weight: lighter;
 letter-spacing: 3px;
 text-align: center;
-margin-top: : 50px;
+position:absolute;
+  transition: .5s ease;
+  top: 4%;
+  left: 22%;
+  bottom: 70%;
 }
 body{
   background-color: aliceblue;
   background-image: url(https://i.pinimg.com/originals/d9/c9/77/d9c977cfe9025d423fd6dbcf406e6f31.jpg);
+  background-size:
 }
 .topnav {
     overflow: hidden;
@@ -22,6 +28,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
 }
 .topnav a:hover {
     background-color: plum;
@@ -32,17 +39,34 @@ body{
     color: white;
 }
 .topnav input[type=text] {
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
     float: right;
     padding: 6px;
     border: none;
-    margin-top: 8px;
+    margin-top: 11px;
     margin-right: 16px;
     font-size: 17px;
     position:absolute;
       transition: .5s ease;
       top: 5%;
-      left: 81%;
+      left: 82%;
       bottom: 87%;
+}
+.topnav .search-container button {
+  float: right;
+  width: 35px;
+  height: 33px;
+  padding: 6px 10px;
+  margin-top: 40px;
+  margin-right: 16px;
+  background: #2196F3;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container button:hover {
+  background: plum;
 }
 .active {
   position:absolute;

@@ -1,0 +1,16 @@
+body {
+  background-color: powderblue;
+}
+#title1 {
+  color: darkslateblue;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 90px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position:absolute;
+    transition: .5s ease;
+    top: 4%;
+    left: 40%;
+    bottom: 87%;
+}
