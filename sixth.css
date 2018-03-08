@@ -15,7 +15,7 @@ body {
   position:absolute;
     transition: .5s ease;
     top: 7%;
-    left: 38%;
+    left: 35%;
     bottom: 90%;
 }
 .topnav {
@@ -62,8 +62,8 @@ body {
   width: 35px;
   height: 33px;
   padding: 6px 10px;
-  margin-top: 27px;
-  margin-right: 18px;
+  margin-top: 45px;
+  margin-right: 50px;
   margin-bottom: 50px;
   background: #2196F3;
   font-size: 17px;
@@ -106,29 +106,33 @@ body {
     left: 17%;
     bottom: 87%;
 }
-.column {
-    float: left;
-    width: 25%;
-    margin-top: 230px;
-    height: 200px;
-}
-.row:after {
-    content: "";
-    diplay: table;
-    clear: both;
-}
-.column img {
-  display: block;
-  width: 220px;
-  height: 220px;
-  border: 8px solid white;
-  cursor: pointer;
-}
-
-figcaption{
-  background-color: white;
-  padding-top: 5px;
+.about {
+  color: white;
   font-family: 'Karma', serif;
-  border: 10px solid white;
-  cursor: pointer;
+  font-size: 30px;
+  position:absolute;
+    transition: .5s ease;
+    top: 30%;
+    left: 8%;
+    right: 8%;
+}
+#cooking{
+  color: white;
+  font-family: 'Karma', serif;
+  font-size: 30px;
+  position:absolute;
+  transition: .5s ease;
+  top: 90%;
+  left: 8%;
+  right: 8%;
+}
+#zori {
+  color: white;
+  font-family: 'Karma', serif;
+  font-size: 30px;
+  position:absolute;
+    transition: .5s ease;
+    top: 97%;
+    left: 8%;
+    right: 8%;
 }

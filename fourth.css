@@ -14,8 +14,8 @@ body {
   border: 2px solid;
   position:absolute;
     transition: .5s ease;
-    top: 7%;
-    left: 38%;
+    top: 15%;
+    left: 25%;
     bottom: 90%;
 }
 .topnav {
@@ -106,29 +106,42 @@ body {
     left: 17%;
     bottom: 87%;
 }
-.column {
-    float: left;
-    width: 25%;
-    margin-top: 230px;
-    height: 200px;
-}
-.row:after {
-    content: "";
-    diplay: table;
-    clear: both;
-}
-.column img {
-  display: block;
-  width: 220px;
-  height: 220px;
-  border: 8px solid white;
-  cursor: pointer;
-}
-
-figcaption{
-  background-color: white;
-  padding-top: 5px;
+.ingredients {
+  color: white;
   font-family: 'Karma', serif;
+  position:absolute;
+    transition: .5s ease;
+    top: 40%;
+    left: 60%;
+}
+.method {
+  color: white;
+  font-family: 'Karma', serif;
+  position:absolute;
+    transition: .5s ease;
+    top: 80%;
+    left: 8%;
+    right: 8%;
+padding-bottom: 40px;
+}
+.prep {
+  color: white;
+  font-size: 25px;
+  font-family: 'Karma', serif;
+  position:absolute;
+    transition: .5s ease;
+    top: 39%;
+    left: 35%;
+    right: 5%;
+padding-bottom: 40px;
+}
+#wrap {
+  height: 260px;
+  width: 290px;
   border: 10px solid white;
-  cursor: pointer;
+  position:absolute;
+    transition: .5s ease;
+    top: 40%;
+    left: 10%;
+    right: 5%;
 }
